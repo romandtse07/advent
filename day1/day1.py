@@ -23,7 +23,7 @@ while not found:
     current += a[i%len(a)]
     if current in frequencies:
         print(current)
-        print(i)#wtf zero
+        print(i)
         break
     frequencies.add(current)
     i += 1
